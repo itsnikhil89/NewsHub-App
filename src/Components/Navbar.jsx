@@ -27,7 +27,7 @@ const Navbar = ({setCategory}) => {
             <div className="nav-link text-light" style={{cursor:"pointer"}} onClick={()=>setCategory("sports")}>Sports</div>
           </li>
           <li className="nav-item">
-            <div className="nav-link text-light" style={{cursor:"pointer"}} onClick={()=>setCategory("entertainment")}>Entertainement</div>
+            <div className="nav-link text-light" style={{cursor:"pointer"}} onClick={()=>setCategory("entertainment")}>Entertainment</div>
           </li>
         </ul>
       </div>
